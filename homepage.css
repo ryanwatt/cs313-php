@@ -36,7 +36,7 @@ html, body {
 
 #menu ul {
     position: relative;
-    top: -8%;
+    top: 0%;
     -webkit-transform: scale(2);
     transform: scale(2);
     -webkit-transition: all 0.3s ease-in-out;
@@ -51,10 +51,10 @@ html, body {
     -webkit-flex-flow: column;
     -ms-flex-flow: column;
     flex-flow: column;
-    margin: 225px;
+    margin: 325px;
     list-style: none;
     width: 200px;
-    margin-left: 39%;
+    margin-left: 60%;
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
