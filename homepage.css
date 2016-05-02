@@ -6,26 +6,6 @@ html, body {
 
 }
 
-/*home page css*/
-
-/*#header {
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    position: fixed;
-    z-index: 11;
-    top: 0px;
-    opacity: 0.85;
-}
-
-#header img {
-    margin-left: -195px;
-    margin-top: -250px;
-    width: 900px;
-    height: 800px;
-
-}*/
-
 #rLetter img {
     z-index: 0;
     padding: 22px;
@@ -172,60 +152,9 @@ html, body {
 
 }
 
-/*#nav ul ul {
- position: absolute;
- display:none;
- background-color: white;
-}
-#nav ul ul li{
- display:block;
-}
-#nav ul ul li a,visited{
- color: #ccc;
-}
-#nav ul ul li a:hover{
- color: #66ffcc;
-}
-
-#nav ul li2 a{
-    display: flex;
-    align-content: center;
-    position: absolute;
-    left: 0px;
-    top: 10px;
-    color: black;
-    text-decoration: none;
-    font-size: 33pt;
-    width: 250px;
-
-}
-
-#nav ul li2 a:hover {
- color: #66ffcc;
-}*/
-
-/*
-#videoBackground {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-.videoBackground_video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
-
 #homeBCK {
 
-    background: url(addYourOwnColor.png) no-repeat;
+    background: url(homepageBack.png) no-repeat;
      background-attachment: fixed;
     background-size: cover;
     background-color: black;
@@ -243,174 +172,7 @@ html, body {
 
 
 
-.videoBackground_video {
 
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#content {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row;
-    -ms-flex-flow: row;
-    flex-flow: row;
-    width: 100%;
-    margin-top: 300px;
-    z-index: 10;
-    position: fixed;
-    left: 0px;
-}
-
-#content_1 img{
-
-    position: fixed;
-    z-index: 500;
-    width: 100%;
-    top: 0px;
-
-}
-
-#wall_1 {
-
-    background: url(projectPage.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#wall_2 {
-
-    background: url(zangaPage.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#wall_3 {
-
-    background: url(brittenPage.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#wall_4 {
-    background: url(neffAppPageSmaller.png) no-repeat;
-     background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#wall_5 {
-    background-color: black;
-    left: 0px;
-    margin-left: 0px;
-}
-
-#wall_5 iframe{
-
-    -webkit-align-content: center;
-
-    -ms-flex-line-pack: center;
-
-    align-content: center;
-    padding: 25px;
-    padding-left: 8%;
-    padding-top: 5%;
-    background-color: black;
-}
-
-#wall_6 {
-    background: url() repeat;
-     background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-.image {
-
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    z-index: 1;
-
-}
-
-.content {
-    margin-left: 0px;
-    height: 600px;
-    width: 100%;
-    z-index: 2;
-    background-color: white;
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-flex-flow: row;
-    -ms-flex-flow: row;
-    flex-flow: row;
-    font-family: sans-serif;
-}
-
-.content h1{
-    width: 30%;
-    height: 20%;
-    text-align: center;
-    padding-top: 8%;
-}
-
-.content p{
-    width: 50%;
-    font-size: 14pt;
-    padding: 20px;
-    text-align: center;
-    padding-top: 5%;
-}
-
-#content_1 {
-    background: url(projectIntroPageSmaller.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#content_2 {
-    background: url(zangaProgression.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#content_3 {
-    background: url(brittenProgression.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#content_4 {
-    background: url(creativitySmaller.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-#content_5 {
-    background: url(rswProjects.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-}
-
-.content iframe {
-    width: 750px;
-    height: 500px;
-    background-color: black;
-}
 
 
 #nav {
@@ -434,12 +196,4 @@ html, body {
     border: 1px solid transparent;
     border-color: white;
     position: fixed;
-}
-
-#resume img{
-   width: 50%;
-    height: 50%;
-    margin-left: 25%;
-    margin-top: 200px;
-    border: 1px solid;
 }
