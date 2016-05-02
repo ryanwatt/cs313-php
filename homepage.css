@@ -176,7 +176,31 @@ html, body {
 
 
 
+/*Assignments Page CSS*/
 
+#header {
+    background-color: black;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    z-index: 11;
+    position: fixed;
+    height: 100px;
+    top: 0px;
+}
+
+#header h1{
+    font-family: sans-serif;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+#header a{
+    color: white;
+}
 
 #nav {
  background-color: white;
