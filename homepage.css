@@ -77,7 +77,8 @@ html, body {
 }
 
 #menu li a:hover {
-    border-color: black;
+  
+    color: red;
 }
 
 #toggle-nav-label {
