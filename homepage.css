@@ -36,7 +36,7 @@ html, body {
 
 #menu ul {
     position: relative;
-    top: 0%;
+    top: -5%;
     -webkit-transform: scale(2);
     transform: scale(2);
     -webkit-transition: all 0.3s ease-in-out;
@@ -68,7 +68,7 @@ html, body {
     border: 1px solid transparent;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 24px;
     color: black;
     width: 200px;
     -webkit-transition: all 0.2s ease-in-out;
