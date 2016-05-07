@@ -11,7 +11,7 @@ exit();
 <head>
 </head>
 <body>
-<form action="basketballSurvey/basketballResults.php" method="post">
+<form action="basketballResults.php" method="post">
 
   <h3>MVP: </h3>
   <input type="radio" name="mvp" value="StephenCurry">Stephen Curry<br/>
@@ -40,7 +40,7 @@ exit();
   <br/>
   <input type="submit" value="submit">
   <br/>
-  <a href="basketballSurvey/resultsLink.php">View Results</a>
+  <a href="resultsLink.php">View Results</a>
 
 </form>
 </body>
